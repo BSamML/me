@@ -34,7 +34,7 @@ document.querySelectorAll('#em').forEach(
 document.getElementById('download').addEventListener('click', () => { 
     const link = document.createElement('a'); 
     link.href = 'sam.pdf';  
-    link.download = 'samcv.pdf'; 
+    link.download = 'sam.pdf'; 
     link.click(); 
 });
 
